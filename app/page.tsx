@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState, useRef } from 'react'
+import Link from 'next/link'
 
 export default function Home() {
   const [inputValue, setInputValue] = useState('')
@@ -117,7 +118,7 @@ export default function Home() {
                 ref={questionInputRef}
                 value={questionInputValue}
                 onChange={(e) => setQuestionInputValue(e.target.value)}
-                className='bg-white px-5 py-3 w-full outline-none disabled:opacity-50'
+                className='bg-white px-5 py-3 w-full outline-none disabled:opacity-50 disabled:cursor-not-allowed'
                 placeholder={`${
                   isPetitionDone
                     ? 'Type your question here'
@@ -131,6 +132,11 @@ export default function Home() {
             {/* End of Input */}
           </>
         )}
+      </div>
+      <div className='text-center mt-4'>
+        <Link className='text-blue-500' href='/how-to'>
+          How to use this?
+        </Link>
       </div>
     </main>
   )
