@@ -15,8 +15,8 @@ const page = () => {
             called Peter Answers. It is basically a website to trick people.
           </p>
           <p className='text-white text-start mx-auto mt-3'>
-            If you don't know about it, then you'd be surprise how this website
-            can guess you and everything that happens around you.
+            {`If you don't know about it, then you'd be surprise how this website
+            can guess you and everything that happens around you.`}
           </p>
         </div>
         <hr className='mt-9' />
@@ -28,18 +28,21 @@ const page = () => {
             <strong>STEP 1:</strong> Go to the petition input field.
           </p>
           <p className='text-white text-start mx-auto mt-3'>
-            <strong>STEP 2:</strong> Notice that when you type, it doesn't show
+            <strong>STEP 2:</strong>{' '}
+            {`Notice that when you type, it doesn't show
             you what you are really typing. But instead, it shows "Phil please
-            answer"
+            answer"`}
           </p>
           <p className='text-white text-start mx-auto mt-3'>
-            <strong>STEP 3:</strong> That's when you can type your answer
-            without your screen viewer knowing it.
+            <strong>STEP 3:</strong>{' '}
+            {`That's when you can type your answer
+            without your screen viewer knowing it.`}
           </p>
           <p className='text-white text-start mx-auto mt-3'>
-            <strong>STEP 4:</strong> After typing your answer, you have to hit
+            <strong>STEP 4:</strong>{' '}
+            {`After typing your answer, you have to hit
             period on your keyboard to let the program knows that you're done
-            typing your answer.
+            typing your answer.`}
           </p>
           <p className='text-white text-start mx-auto mt-3'>
             <strong>STEP 5:</strong> Continue typing until you finish the whole
